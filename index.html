@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Salone - Beauty Salon Website Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Playfair+Display:wght@500&family=Work+Sans&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid bg-light sticky-top p-0">
+        <nav class="navbar navbar-expand-lg navbar-light p-0">
+            <a href="index.html" class="navbar-brand bg-primary py-4 px-5 me-0">
+                <h1 class="mb-0"><i class="bi bi-scissors"></i>Salone</h1>
+            </a>
+            <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse p-3" id="navbarCollapse">
+                <div class="navbar-nav mx-auto">
+                    <a href="index.html" class="nav-item nav-link active">Home</a>
+                    <a href="about.html" class="nav-item nav-link">About</a>
+                    <a href="service.html" class="nav-item nav-link">Service</a>
+                    <a href="price.html" class="nav-item nav-link">Price</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                        <div class="dropdown-menu bg-light mt-2">
+                            <a href="gallery.html" class="dropdown-item">Photo Gallery</a>
+                            <a href="blog.html" class="dropdown-item">Beauty Blog</a>
+                            <a href="team.html" class="dropdown-item">Our Team</a>
+                            <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                    
+                        </div>
+                    </div>
+                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                </div>
+                <div class="d-flex">
+                    <a class="btn btn-primary btn-sm-square me-3" href=""><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-primary btn-sm-square me-3" href=""><i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-primary btn-sm-square" href=""><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Hero Start -->
+    <div class="container-fluid p-0 hero-header bg-light mb-5">
+        <div class="container p-0">
+            <div class="row g-0 align-items-center">
+                <div class="col-lg-6 hero-header-text py-5">
+                    <div class="py-5 px-3 ps-lg-0">
+                        <h1 class="font-dancing-script text-primary animated slideInLeft">Welcome</h1>
+                        <h1 class="display-1 mb-4 animated slideInLeft">Beauty Salon Fashion for Women</h1>
+                        <div class="row g-4 animated slideInLeft">
+                            <div class="col-md-6">
+                                <div class="d-flex align-items-center">
+                                    <div class="btn-square btn btn-primary flex-shrink-0">
+                                        <i class="fa fa-phone text-dark"></i>
+                                    </div>
+                                    <div class="px-3">
+                                        <h5 class="text-primary mb-0">Call Us</h5>
+                                        <p class="fs-5 text-dark mb-0">+123456789</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="d-flex align-items-center">
+                                    <div class="btn-square btn btn-primary flex-shrink-0">
+                                        <i class="fa fa-envelope text-dark"></i>
+                                    </div>
+                                    <div class="px-3">
+                                        <h5 class="text-primary mb-0">Mail Us</h5>
+                                        <p class="fs-5 text-dark mb-0">info@domain.com</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="owl-carousel header-carousel animated fadeIn">
+                        <img class="img-fluid" src="img/hero-slider-1.jpg" alt="">
+                        <img class="img-fluid" src="img/hero-slider-2.jpg" alt="">
+                        <img class="img-fluid" src="img/hero-slider-3.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Hero End -->
+
+
+    <!-- About Start -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.2s">
+                    <img class="img-fluid mb-3" src="img/about.jpg" alt="">
+                    <div class="d-flex align-items-center bg-light">
+                        <div class="btn-square flex-shrink-0 bg-primary" style="width: 100px; height: 100px;">
+                            <i class="fa fa-phone fa-2x text-dark"></i>
+                        </div>
+                        <div class="px-3">
+                            <h3>+0123456789</h3>
+                            <span>Call us direct 24/7 for get a free consultation</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                    <h1 class="font-dancing-script text-primary">About Us</h1>
+                    <h1 class="mb-5">Why People Choose Us!</h1>
+                    <p class="mb-4">We offer a full range of services to help you look and feel your best — from precision haircuts and stylish hair coloring to professional makeup, luxurious manicures and pedicures, rejuvenating facials, and soothing massage</p>
+                    <div class="row g-3 mb-5">
+                        <div class="col-sm-6">
+                            <div class="bg-light text-center p-4">
+                                <i class="fas fa-calendar-alt fa-4x text-primary"></i>
+                                <h1 class="display-5" data-toggle="counter-up">25</h1>
+                                <p class="text-dark text-uppercase mb-0">Years experience</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="bg-light text-center p-4">
+                                <i class="fas fa-users fa-4x text-primary"></i>
+                                <h1 class="display-5" data-toggle="counter-up">999</h1>
+                                <p class="text-dark text-uppercase mb-0">Happy Customers</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="btn btn-primary text-uppercase px-5 py-3" href="">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Service Start -->
+    <div class="container-fluid service py-5">
+        <div class="container">
+            <div class="text-center wow fadeIn" data-wow-delay="0.1s">
+                <h1 class="font-dancing-script text-primary">Our Services</h1>
+                <h1 class="mb-5">Explore Our Services</h1>
+            </div>
+            <div class="row g-4 g-md-0 text-center">
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-item h-100 p-4 border-bottom border-end wow fadeIn" data-wow-delay="0.1s">
+                        <img class="img-fluid" src="img/haircut.png" alt="">
+                        <h3 class="mb-3">Haircut</h3>
+                        <p class="mb-3">our haircut services are tailored to your style and comfort.We begin with a consultation to understand you prefrences,followed by a precise cut and a professional finish.</p>
+                        <a class="btn btn-sm btn-primary text-uppercase" href="">Read More <i
+                                class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-item h-100 p-4 border-bottom border-lg-end wow fadeIn" data-wow-delay="0.3s">
+                        <img class="img-fluid" src="https://th.bing.com/th/id/OIP.1bK2CgpJNNFxmOmRm_w5cAHaD4?w=343&h=180&c=7&r=0&o=7&cb=12&pid=1.7&rm=3" alt="">
+                        <h3 class="mb-3">Makeup</h3>
+                        <p class="mb-3">Our makeup services are designed to match your skin tone, style, and occasion. We offer bridal makeup, party glam, and natural day looks using high-quality, skin-friendly products. Each session begins with a consultation to ensure a personalized experience that enhances your unique beauty.</p>
+                        <a class="btn btn-sm btn-primary text-uppercase" href="">Read More <i
+                                class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-item h-100 p-4 border-bottom border-end border-lg-end-0 wow fadeIn"
+                        data-wow-delay="0.5s">
+                        <img class="img-fluid" src="https://th.bing.com/th/id/OIP.Ce4c-MB2ZHMZKsARRyC62gHaD8?w=273&h=180&c=7&r=0&o=7&cb=12&pid=1.7&rm=3" alt="">
+                        <h3 class="mb-3">Manicure</h3>
+                        <p class="mb-3">Our manicure services include nail shaping, cuticle care, exfoliation, hand massage, and professional polish application. We offer a variety of finishes — from natural shine to long-lasting gel polish — to suit your style. Enjoy a relaxing session that leaves your nails looking elegant and your hands feeling smooth.</p>
+                        <a class="btn btn-sm btn-primary text-uppercase my-2" href="">Read More <i
+                                class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-item h-100 p-4 border-bottom border-lg-bottom-0 border-lg-end wow fadeIn"
+                        data-wow-delay="0.1s">
+                        <img class="img-fluid" src="https://th.bing.com/th/id/OIP.JULiPNdqIUAth7f922huwAHaFj?w=264&h=198&c=7&r=0&o=7&cb=12&pid=1.7&rm=3" alt="">
+                        <h3 class="mb-3">Pedicure</h3>
+                        <p class="mb-3">Our pedicure service includes a warm foot soak, nail trimming and shaping, cuticle care, exfoliation, and a relaxing massage. Choose from a range of polish colors or enjoy a natural shine finish. We use hygienic tools and high-quality products to ensure your feet receive the best care and attention.</p>
+                        <a class="btn btn-sm btn-primary text-uppercase" href="">Read More <i
+                                class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-item h-100 p-4 border-end wow fadeIn" data-wow-delay="0.3s">
+                        <img class="img-fluid" src="img/massage.png" alt="">
+                        <h3 class="mb-3">Massage</h3>
+                        <p class="mb-3">Our massage services are designed to release stress, relieve pain, and promote deep relaxation. Each session includes personalized techniques tailored to your comfort level. Choose from full-body, back, or aromatherapy massages — all performed with quality oils and expert care to rejuvenate your body and calm your mind</p>
+                        <a class="btn btn-sm btn-primary text-uppercase" href="">Read More <i
+                                class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-item h-100 p-4 wow fadeIn" data-wow-delay="0.5s">
+                        <img class="img-fluid" src="img/skin-care.png" alt="">
+                        <h3 class="mb-3">Skin Care</h3>
+                        <p class="mb-3">Our skin care services include customized facials, exfoliation, and treatments designed to target specific concerns such as acne, dryness, or dullness. Using high-quality products and professional techniques, we help restore your skin’s natural glow and smooth texture. Each treatment is personalized to leave your skin refreshed, nourished, and beautifully radiant</p>
+                        <a class="btn btn-sm btn-primary text-uppercase" href="">Read More <i
+                                class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+
+    <!-- Pricing Start -->
+    <div class="container-fluid price px-0 py-5">
+        <div class="row g-0">
+            <div class="col-md-6">
+                <div class="d-flex align-items-center h-100 bg-primary p-5">
+                    <div class="wow fadeIn" data-wow-delay="0.3s">
+                        <h1 class="font-dancing-script text-white">Pricing</h1>
+                        <h1 class="mb-0">Beauty Salon</h1>
+                        <h1 class="display-1 text-uppercase mb-5" style="letter-spacing: 10px;">Pricing</h1>
+                        <div class="row g-4 align-items-center">
+                            <div class="col-lg-6">
+                                <div class="text-center bg-dark p-5">
+                                    <h4 class="text-white">Enjoy</h4>
+                                    <h1 class="display-1 font-work-sans text-white">20%</h1>
+                                    <p class="fs-2 text-white mb-0">Off</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <p>Special Offer: Get 20% Off All Salon Services!
+Treat yourself to the beauty you deserve. For a limited time, enjoy 20% off on all our services — including haircuts, facials, manicures, pedicures, and more.
+Refresh your style, rejuvenate your skin, and relax your mind — all at a special price.
+📅 Hurry! Offer valid for a limited period only</p>
+                                <a class="btn btn-dark" href="">Get 20% Off</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="h-100 bg-dark p-5">
+                    <div class="price-item mb-3 wow fadeIn" data-wow-delay="0.1s">
+                        <img class="img-fluid flex-shrink-0" src="img/price-1.jpg" alt="">
+                        <div class="text-end px-4">
+                            <h6 class="text-uppercase text-primary">Haircut</h6>
+                            <h3 class="text-white font-work-sans mb-0">₹149</h3>
+                        </div>
+                    </div>
+                                <div class="price-item mb-3 wow fadeIn" data-wow-delay="0.2s">
+                        <img class="img-fluid flex-shrink-0" src="data:image/webp;base64,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" alt="">
+                        <div class="text-end px-4">
+                            <h6 class="text-uppercase text-primary">Makeup</h6>
+                            <h3 class="text-white font-work-sans mb-0">₹1779</h3>
+                        </div>
+                    </div>
+                    <div class="price-item mb-3 wow fadeIn" data-wow-delay="0.3s">
+                        <img class="img-fluid flex-shrink-0" src="https://th.bing.com/th/id/OIP.qXan0hFtXM_ar0noXjxPQQHaEK?w=329&h=185&c=7&r=0&o=7&cb=12&pid=1.7&rm=3g" alt="">
+                        <div class="text-end px-4">
+                            <h6 class="text-uppercase text-primary">Manicure</h6>
+                            <h3 class="text-white font-work-sans mb-0">₹259</h3>
+                        </div>
+                    </div>
+                    <div class="price-item mb-3 wow fadeIn" data-wow-delay="0.4s">
+                        <img class="img-fluid flex-shrink-0" src="data:image/webp;base64,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" alt="">
+                        <div class="text-end px-4">
+                            <h6 class="text-uppercase text-primary">Pedicure</h6>
+                            <h3 class="text-white font-work-sans mb-0">₹249</h3>
+                        </div>
+                    </div>
+                    <div class="price-item mb-3 wow fadeIn" data-wow-delay="0.5s">
+                        <img class="img-fluid flex-shrink-0" src="https://th.bing.com/th/id/OIP.pXCAoEM5W_0TRSmEURjiMQHaE8?w=280&h=187&c=7&r=0&o=7&cb=12&pid=1.7&rm=3" alt="">
+                        <div class="text-end px-4">
+                            <h6 class="text-uppercase text-primary">Massage</h6>
+                            <h3 class="text-white font-work-sans mb-0">₹900</h3>
+                        </div>
+                    </div>
+                    <div class="price-item mb-3 wow fadeIn" data-wow-delay="0.6s">
+                        <img class="img-fluid flex-shrink-0" src="https://tse1.mm.bing.net/th/id/OIP.iwjH3QEtgBka6JXL23f-sAHaEB?cb=12&w=626&h=340&rs=1&pid=ImgDetMain&o=7&rm=3" alt="">
+                        <div class="text-end px-4">
+                            <h6 class="text-uppercase text-primary">Skin Care</h6>
+                            <h3 class="text-white font-work-sans mb-0">₹900</h3>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Pricing End -->
+
+
+    <!-- Gallery Start -->
+    <div class="container-fluid gallery py-5">
+        <div class="container">
+            <div class="text-center wow fadeIn" data-wow-delay="0.2s">
+                <h1 class="font-dancing-script text-primary">Gallery</h1>
+                <h1 class="mb-5">Explore Our Gallery</h1>
+            </div>
+            <div class="row g-0">
+                <div class="col-md-6 wow fadeIn" data-wow-delay="0.2s">
+                    <div class="gallery-item h-100">
+                        <img src="img/gallery-1.jpg" class="img-fluid w-100 h-100" alt="">
+                        <div class="gallery-icon">
+                            <a href="img/gallery-1.jpg" class="btn btn-primary btn-lg-square"
+                                data-lightbox="Gallery-1"><i class="fa fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 wow fadeIn" data-wow-delay="0.4s">
+                    <div class="gallery-item h-100">
+                        <img src="https://tse2.mm.bing.net/th/id/OIP.b2Gk2yvHohw3avtTxWvPfgHaE8?cb=12&pid=ImgDet&w=203&h=135&c=7&o=7&rm=3" class="img-fluid w-100 h-100" alt="">
+                        <div class="gallery-icon">
+                            <a href="https://tse2.mm.bing.net/th/id/OIP.b2Gk2yvHohw3avtTxWvPfgHaE8?cb=12&pid=ImgDet&w=203&h=135&c=7&o=7&rm=3" class="btn btn-primary btn-lg-square"
+                                data-lightbox="Gallery-2"><i class="fa fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 wow fadeIn" data-wow-delay="0.6s">
+                    <div class="gallery-item h-100">
+                        <img src="https://th.bing.com/th/id/OIP.q0qzbsLwuTgvXKibVHpDsQHaFs?w=258&h=198&c=7&r=0&o=7&cb=12&pid=1.7&rm=3" class="img-fluid w-100 h-100" alt="">
+                        <div class="gallery-icon">
+                            <a href="https://th.bing.com/th/id/OIP.q0qzbsLwuTgvXKibVHpDsQHaFs?w=258&h=198&c=7&r=0&o=7&cb=12&pid=1.7&rm=3" class="btn btn-primary btn-lg-square"
+                                data-lightbox="Gallery-3"><i class="fa fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 wow fadeIn" data-wow-delay="0.2s">
+                    <div class="gallery-item h-100">
+                        <img src="https://th.bing.com/th/id/R.f0a0256210c3cce4c73bc75443939f07?rik=6gGiNRM%2bS%2bZHZg&riu=http%3a%2f%2fnailritualvienna.com%2fimages%2fservices%2f6.webp&ehk=X8FrfbRv7%2bvo7pfdIdDuV6wKBtK2Wogc%2fYtfuXgXzNw%3d&risl=&pid=ImgRaw&r=0" class="img-fluid w-100 h-100" alt="">
+                        <div class="gallery-icon">
+                            <a href="https://th.bing.com/th/id/R.f0a0256210c3cce4c73bc75443939f07?rik=6gGiNRM%2bS%2bZHZg&riu=http%3a%2f%2fnailritualvienna.com%2fimages%2fservices%2f6.webp&ehk=X8FrfbRv7%2bvo7pfdIdDuV6wKBtK2Wogc%2fYtfuXgXzNw%3d&risl=&pid=ImgRaw&r=0" class="btn btn-primary btn-lg-square"
+                                data-lightbox="Gallery-4"><i class="fa fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 wow fadeIn" data-wow-delay="0.4s">
+                    <div class="gallery-item h-100">
+                        <img src="https://th.bing.com/th/id/OIP.KayEcJMkEywxmJ5X1RqtmwHaE8?w=280&h=187&c=7&r=0&o=7&cb=12&pid=1.7&rm=3" class="img-fluid w-100 h-100" alt="">
+                        <div class="gallery-icon">
+                            <a href="https://th.bing.com/th/id/OIP.KayEcJMkEywxmJ5X1RqtmwHaE8?w=280&h=187&c=7&r=0&o=7&cb=12&pid=1.7&rm=3" class="btn btn-primary btn-lg-square"
+                                data-lightbox="Gallery-5"><i class="fa fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 wow fadeIn" data-wow-delay="0.6s">
+                    <div class="gallery-item h-100">
+                        <img src="https://tse1.explicit.bing.net/th/id/OIP.7_knxXebX2ifLu2FG1IfPAHaFw?cb=12&pid=ImgDet&w=203&h=157&c=7&o=7&rm=3" class="img-fluid w-100 h-100" alt="">
+                        <div class="gallery-icon">
+                            <a href="https://tse1.explicit.bing.net/th/id/OIP.7_knxXebX2ifLu2FG1IfPAHaFw?cb=12&pid=ImgDet&w=203&h=157&c=7&o=7&rm=3g" class="btn btn-primary btn-lg-square"
+                                data-lightbox="Gallery-6"><i class="fa fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Gallery End -->
+
+
+    <!-- Team Start -->
+    <div class="container-fluid overflow-hidden py-5">
+        <div class="container">
+            <div class="text-center wow fadeIn" data-wow-delay="0.2s">
+                <h1 class="font-dancing-script text-primary">Team Members</h1>
+                <h1 class="mb-5">Our Experienced Specialists</h1>
+            </div>
+            <div class="row g-4 team">
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="team-item position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="img/team-1.jpg" alt="">
+                        <div class="team-overlay">
+                            <p class="text-primary mb-1">Hair Specialist</p>
+                            <h4>Lily Taylor</h4>
+                            <div class="d-flex justify-content-center">
+                                <a class="btn btn-dark btn-sm-square border-2 me-3" href="">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a class="btn btn-dark btn-sm-square border-2 me-3" href="">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a class="btn btn-dark btn-sm-square border-2" href="">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
+                    <div class="team-item position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="img/team-2.jpg" alt="">
+                        <div class="team-overlay">
+                            <p class="text-primary mb-1">Nail Designer</p>
+                            <h4>Olivia Smith</h4>
+                            <div class="d-flex justify-content-center">
+                                <a class="btn btn-dark btn-sm-square border-2 me-3" href="">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a class="btn btn-dark btn-sm-square border-2 me-3" href="">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a class="btn btn-dark btn-sm-square border-2" href="">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="team-item position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="img/team-3.jpg" alt="">
+                        <div class="team-overlay">
+                            <p class="text-primary mb-1">Beauty Specialist</p>
+                            <h4>Ava Brown</h4>
+                            <div class="d-flex justify-content-center">
+                                <a class="btn btn-dark btn-sm-square border-2 me-3" href="">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a class="btn btn-dark btn-sm-square border-2 me-3" href="">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a class="btn btn-dark btn-sm-square border-2" href="">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
+                    <div class="team-item position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="img/team-4.jpg" alt="">
+                        <div class="team-overlay">
+                            <p class="text-primary mb-1">Spa Specialist</p>
+                            <h4>Amelia Jones</h4>
+                            <div class="d-flex justify-content-center">
+                                <a class="btn btn-dark btn-sm-square border-2 me-3" href="">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a class="btn btn-dark btn-sm-square border-2 me-3" href="">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a class="btn btn-dark btn-sm-square border-2" href="">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Team End -->
+
+
+    <!-- Testimonial Start -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="text-center wow fadeIn" data-wow-delay="0.2s">
+                <h1 class="font-dancing-script text-primary">Testimonial</h1>
+                <h1 class="mb-5">What Clients Say!</h1>
+            </div>
+            <div class="owl-carousel testimonial-carousel wow fadeIn" data-wow-delay="0.3s">
+                <div class="text-center bg-light p-4">
+                    <i class="fa fa-quote-left fa-3x mb-3"></i>
+                    <p>Absolutely love this salon! The staff are friendly, professional, and really listen to what you want. My haircut and color turned out even better than I imagin</p>
+                    <img class="img-fluid mx-auto border p-1 mb-3" src="img/testimonial-1.jpg" alt="">
+                    <h4 class="mb-1">mariya</h4>
+                    <span>doctor</span>
+                </div>
+                <div class="text-center bg-light p-4">
+                    <i class="fa fa-quote-left fa-3x mb-3"></i>
+                    <p>Absolutely love this salon! The staff are friendly, professional, and really listen to what you want. My haircut and color turned out even better than I imagin</p>
+                    <img class="img-fluid mx-auto border p-1 mb-3" src="img/testimonial-2.jpg" alt="">
+                    <h4 class="mb-1">rida</h4>
+                    <span>professor</span>
+                </div>
+                <div class="text-center bg-light p-4">
+                    <i class="fa fa-quote-left fa-3x mb-3"></i>
+                    <p>Absolutely love this salon! The staff are friendly, professional, and really listen to what you want. My haircut and color turned out even better than I imagin</p>
+                    <img class="img-fluid mx-auto border p-1 mb-3" src="img/testimonial-3.jpg" alt="">
+                    <h4 class="mb-1">aliza</h4>
+                    <span>enginer</span>
+                </div>
+                <div class="text-center bg-light p-4">
+                    <i class="fa fa-quote-left fa-3x mb-3"></i>
+                    <p>Absolutely love this salon! The staff are friendly, professional, and really listen to what you want. My haircut and color turned out even better than I imagin</p>
+                    <img class="img-fluid mx-auto border p-1 mb-3" src="img/testimonial-4.jpg" alt="">
+                    <h4 class="mb-1">alina</h4>
+                    <span>doctor</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+
+    <!-- Blog Start -->
+    <div class="container-fluid blog p-0 mt-5">
+        <div class="row g-0">
+            <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
+                <div class="h-100 d-flex flex-column justify-content-center bg-primary py-5 px-4">
+                    <p class="mb-2"><i class="fa fa-calendar-alt text-dark me-1"></i>Jan 01, 2026 | <i
+                            class="fa fa-folder-open text-dark me-1"></i>Hair Salon</p>
+                    <h3 class="mb-3">How to Extend The Life of Your Haircolor</h3>
+                    <p>Color Care Made Easy
+Preserve your color by using professional, color-safe products and minimizing heat and UV exposure. Rinse with cool water and nourish your hair with moisturizing treatments to maintain its shine and softness. Ask your stylist for the best home-care routine to keep your color salon-fresh every day!</p>
+                    <a class="btn btn-dark align-self-start text-uppercase" href="">Read More <i
+                            class="bi bi-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
+                <div class="h-100">
+                    <img class="img-fluid w-100 h-100" src="img/blog-1.jpg" alt="" style="object-fit: cover;">
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
+                <div class="h-100 d-flex flex-column justify-content-center bg-primary py-5 px-4">
+                    <p class="mb-2"><i class="fa fa-calendar-alt text-dark me-1"></i>Jan 01, 2045 | <i
+                            class="fa fa-folder-open text-dark me-1"></i>Hair Salon</p>
+                    <h3 class="mb-3">Hottest Hairstyles and Haircuts in 2045</h3>
+                    <p>Soft, ethereal waves reminiscent of fairy tales are trending. This romantic style adds a whimsical touch to long or medium-length hair</p>
+                    <a class="btn btn-dark align-self-start text-uppercase" href="">Read More <i
+                            class="bi bi-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
+                <div class="h-100">
+                    <img class="img-fluid w-100 h-100" src="img/blog-2.jpg" alt="" style="object-fit: cover;">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Blog End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid footer position-relative bg-dark text-white-50 py-5 wow fadeIn" data-wow-delay="0.2s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-6 pe-lg-5">
+                    <a href="index.html" class="navbar-brand">
+                        <h1 class="display-5 text-primary mb-0"><i class="bi bi-scissors"></i>Salone</h1>
+                    </a>
+                   <p class="mb-2"><i class="fa fa-map-marker-alt me-2"></i>123 Street, New York, USA</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-2"></i>+012 345 67890</p>
+                    <p><i class="fa fa-envelope me-2"></i>info@example.com</p>
+                    <div class="d-flex justify-content-start mt-4">
+                        <a class="btn btn-sm-square btn-primary me-3" href="#"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-sm-square btn-primary me-3" href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-sm-square btn-primary me-3" href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-sm-square btn-primary me-3" href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-6 ps-lg-5">
+                    <div class="row g-4">
+                        <div class="col-sm-6">
+                            <h5 class="text-primary mb-4">Quick Links</h5>
+                            <a class="btn btn-link" href="">About Us</a>
+                            <a class="btn btn-link" href="">Contact Us</a>
+                            <a class="btn btn-link" href="">Our Services</a>
+                            <a class="btn btn-link" href="">Terms & Condition</a>
+                        </div>
+                        <div class="col-sm-6">
+                            <h5 class="text-primary mb-4">Popular Links</h5>
+                            <a class="btn btn-link" href="">About Us</a>
+                            <a class="btn btn-link" href="">Contact Us</a>
+                            <a class="btn btn-link" href="">Our Services</a>
+                            <a class="btn btn-link" href="">Terms & Condition</a>
+                        </div>
+                        <div class="col-sm-12">
+                            <h5 class="text-primary mb-4">Newsletter</h5>
+                            <div class="position-relative w-100 mb-2">
+                                <input class="form-control bg-secondary border-0 w-100 ps-4 pe-5" type="text"
+                                    placeholder="Enter Your Email" style="height: 60px;">
+                                <button type="button" class="btn shadow-none position-absolute top-0 end-0 mt-2 me-2"><i
+                                        class="fa fa-paper-plane text-primary fs-4"></i></button>
+                            </div>
+                          
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Copyright Start -->
+    <div class="container-fluid bg-dark text-white border-top border-secondary py-4 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    &copy; <a class="border-bottom" href="#">prairie rose</a>, All Right Reserved.
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    
+                    Designed By <a class="border-bottom" >bi bi maimoona</a>.
+            </div>
+        </div>
+    </div>
+    <!-- Copyright End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
